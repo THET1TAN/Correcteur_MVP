@@ -1,0 +1,501 @@
+Date et heure : 2025-04-27 01:01:51
+Texte original : Deux présumés voleurs d'un camion lourd arrêtés après une poursuite policière
+Résultat : {
+  "style": "standard",
+  "correction": "Deux présumés voleurs de camions lourds arrêtés après une poursuite policière",
+  "explication": "ajout d'un 's' à 'camion' pour un accord en genre et nombre"
+}
+Temps écoulé : 159.19 secondes
+Nombre de tokens (entrée) : 11
+Nombre de tokens (sortie) : 29
+--------------------------------------------------
+Date et heure : 2025-04-27 01:05:44
+Texte original : Les policiers de la Sûreté du Québec ont pris en chasse un camion lourd volé
+Résultat : {
+  "style": "standard",
+  "correction": "Les policiers de la Sûreté du Québec ont pris en chasse un camion lourd volé.",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 115.67 secondes
+Nombre de tokens (entrée) : 15
+Nombre de tokens (sortie) : 24
+--------------------------------------------------
+Date et heure : 2025-04-27 01:10:03
+Texte original : Selon le média Vingt55.ca, deux individus ont été arrêtés à l’issue d’une  poursuite policière alors qu’ils circulaient à bord d’un camion dompeur volé.
+Résultat : {
+  "style": "standard",
+  "correction": "Selon le média Vingt55.ca, deux individus ont été arrêtés à l'issue d'une poursuite policière alors qu'ils circulaient à bord d'un camion dumper volé.",
+  "explication": "Correction orthographique : 'dompeur' devient 'dumper'."
+}
+Temps écoulé : 208.05 secondes
+Nombre de tokens (entrée) : 23
+Nombre de tokens (sortie) : 35
+--------------------------------------------------
+Date et heure : 2025-04-28 10:12:58
+Texte original : Accident impliquant un vélo à Val-Belair : un homme transporté d’urgence à l’hôpital
+Résultat : {
+  "style": "standard",
+  "correction": "Accident impliquant un vélo à Val-Belair : un homme transporté d\u2019urgence à l\u2019hôpital",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 328.96 secondes
+Nombre de tokens (entrée) : 19
+Nombre de tokens (sortie) : 45
+--------------------------------------------------
+Date et heure : 2025-04-28 10:16:15
+Texte original : Un accident s’est produit ce matin vers 9 h 34 sur le boulevard Pie-XI Sud, à l’intersection de la rue de la Joconde, dans le secteur Val-Belair. L’incident impliquait un véhicule et un vélo à trois roues électriques.
+Résultat : {
+  "style": "standard",
+  "correction": "Un accident s’est produit ce matin vers 9 h 34 sur le boulevard Pie-XI Sud, à l’intersection de la rue de La Joconde, dans le secteur Val-Belair. L’incident impliquait un véhicule et un vélo à trois roues électriques.",
+  "explication": "majuscule après « de »"
+}
+Temps écoulé : 162.60 secondes
+Nombre de tokens (entrée) : 52
+Nombre de tokens (sortie) : 80
+--------------------------------------------------
+Date et heure : 2025-04-29 15:08:59
+Texte original : Des automobilistes dans le trouble - Ils circulaient 183 km/h et à 223 km/h et vitesse dans une zone de construction
+Résultat : {
+  "style": "familier",
+  "correction": "Des automobilistes dans la tourmente. Ils circulaient à 183 km/h et à 223 km/h en zone de construction.",
+  "explication": "Ajout d'un trait d'union pour lier les deux parties de l'expression « dans le trouble », qui devient « dans la tourmente » (expression idiomatique). Ajout de la préposition « à » pour indiquer la vitesse. Suppression du mot « vitesse » qui est redondant."
+}
+Temps écoulé : 420.90 secondes
+Nombre de tokens (entrée) : 25
+Nombre de tokens (sortie) : 104
+Nombre de tokens (réel, modèle) : 0
+--------------------------------------------------
+Date et heure : 2025-04-29 15:13:38
+Texte original : Voici trois situations où la vitesse est en cause et des contraventions salées ont été données.
+Résultat : {
+  "style": "standard",
+  "correction": "Voici trois situations où la vitesse est en cause et où des contraventions salées ont été données.",
+  "explication": "ajout de « où » pour une meilleure construction grammaticale"
+}
+Temps écoulé : 90.56 secondes
+Nombre de tokens (entrée) : 17
+Nombre de tokens (sortie) : 51
+Nombre de tokens (réel, modèle) : 0
+--------------------------------------------------
+Date et heure : 2025-04-29 15:17:11
+Texte original : Le 5 avril dernier, les policiers de la SQ du secteur de Laval ont intercepté un conducteur pour avoir circulé sans avoir fixé solidement sa plaque d’immatriculation à l’arrière de son véhicule, dans la municipalité de Laval.
+Résultat : {
+  "style": "standard",
+  "correction": "Le 5 avril dernier, les policiers de la SQ du secteur de Laval ont intercepté un conducteur pour avoir circulé sans avoir fixée solidement sa plaque d’immatriculation à l’arrière de son véhicule, dans la municipalité de Laval.",
+  "explication": "accord du participe passé"
+}
+Temps écoulé : 158.66 secondes
+Nombre de tokens (entrée) : 44
+Nombre de tokens (sortie) : 71
+Nombre de tokens (réel, modèle) : 0
+--------------------------------------------------
+Date et heure : 2025-04-29 15:31:29
+Texte original : Suite à une enquête des patrouilleurs, il a été démontré que le conducteur de 20 ans avait été capté la journée même à une vitesse de 223 km/h par un cinémomètre photographique sur l’autoroute 15 où la limite de vitesse maximale est de 100 km/h.
+Résultat : {
+  "style": "standard",
+  "correction": "Suite à une enquête des patrouilleurs, il a été démontré que le conducteur de 20 ans avait été capturé la journée même à une vitesse de 223 km/h par un cinémomètre photographique sur l'autoroute 15 où la limite de vitesse maximale est de 100 km/h.",
+  "explication": "Correction orthographique : « capté » → « capturé » (conjugaison du verbe « capturer »)"
+}
+Temps écoulé : 469.21 secondes
+Nombre de tokens (entrée) : 53
+Nombre de tokens (sortie) : 94
+--------------------------------------------------
+Date et heure : 2025-04-29 15:35:49
+Texte original : Le contrevenant de Laval a reçu un constat d’infraction totalisant 2250 $ assorti de 30 points d’inaptitude pour son grand excès de vitesse et son permis de conduire a également été suspendu pour une période de sept jours.
+Résultat : {
+  "style": "standard",
+  "correction": "Le contrevenant de Laval a reçu un constat d’infraction totalisant 2250 $ assorti de 30 points d’inaptitude pour son grand excès de vitesse, et son permis de conduire a également été suspendu pour une période de sept jours.",
+  "explication": "ajout d'une virgule pour séparer les deux propositions indépendantes"
+}
+Temps écoulé : 184.89 secondes
+Nombre de tokens (entrée) : 43
+Nombre de tokens (sortie) : 78
+--------------------------------------------------
+Date et heure : 2025-04-29 15:39:27
+Texte original : Il s’est vu remettre plusieurs constats d’infraction totalisant plus de 5 000 $, entres autres, pour avoir tenté de déjouer un cinémomètre photographique.
+Résultat : {
+  "style": "standard",
+  "correction": "Il s’est vu remettre plusieurs constats d’infraction totalisant plus de 5 000 $, entre autres, pour avoir tenté de déjouer un cinémomètre photographique.",
+  "explication": "Correction : ajout du trait d'union dans « entre autres »."
+}
+Temps écoulé : 139.74 secondes
+Nombre de tokens (entrée) : 30
+Nombre de tokens (sortie) : 67
+--------------------------------------------------
+Date et heure : 2025-04-29 15:42:57
+Texte original : Autre cas de vitesse
+Résultat : {
+  "style": "familier",
+  "correction": "Autre cas de figure",
+  "explication": "erreur d'expression : 'cas de vitesse' n'est pas une expression courante, la bonne expression est 'cas de figure'"
+}
+Temps écoulé : 81.63 secondes
+Nombre de tokens (entrée) : 4
+Nombre de tokens (sortie) : 54
+--------------------------------------------------
+Date et heure : 2025-04-29 15:47:25
+Texte original : Dimanche le 27 avril, vers 22 h 20, un conducteur âgé de 34 ans, de Lévis, fut intercepté à une vitesse de 184 km/h dans une zone où la limite de vitesse maximale est de 100 km/h, soit sur l’autoroute 73 en direction nord, au KM 123 à Lévis.
+Résultat : {
+  "style": "standard",
+  "correction": "Dimanche le 27 avril, vers 22 h 20, un conducteur âgé de 34 ans, de Lévis, fut intercepté à une vitesse de 184 km/h dans une zone où la limite de vitesse maximale est de 100 km/h, soit sur l'autoroute 73 en direction nord, au kilomètre 123 à Lévis.",
+  "explication": "ajout d'un trait d'union dans « autoroute » et remplacement de « KM » par « kilomètre » (écriture recommandée)"
+}
+Temps écoulé : 228.93 secondes
+Nombre de tokens (entrée) : 62
+Nombre de tokens (sortie) : 111
+--------------------------------------------------
+Date et heure : 2025-04-29 15:51:18
+Texte original : Un constat d’infraction au montant de 1611 $ lui fut émis accompagné de 18 points d’inaptitude.
+Résultat : {
+  "style": "standard",
+  "correction": "Un constat d'infraction d'un montant de 1611 $ lui fut émis, accompagné de 18 points d'inaptitude.",
+  "explication": "Ajout d'un trait d'union dans le nombre et ajout d'une virgule pour améliorer la lisibilité."
+}
+Temps écoulé : 121.31 secondes
+Nombre de tokens (entrée) : 21
+Nombre de tokens (sortie) : 69
+--------------------------------------------------
+Date et heure : 2025-04-29 15:53:41
+Texte original : Son permis de conduire fut suspendu immédiatement pour une période de sept jours.
+Résultat : {
+  "style": "standard",
+  "correction": "Son permis de conduire fut suspendu immédiatement pour une période de sept jours.",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 73.71 secondes
+Nombre de tokens (entrée) : 14
+Nombre de tokens (sortie) : 40
+--------------------------------------------------
+Date et heure : 2025-04-29 15:55:22
+Texte original : Un troisième dans le pétrin avec une plaque d'immatriculation volée
+Résultat : {
+  "style": "familier",
+  "correction": "Un troisième dans le pétrin avec une plaque d'immatriculation volée",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 75.57 secondes
+Nombre de tokens (entrée) : 12
+Nombre de tokens (sortie) : 38
+--------------------------------------------------
+Date et heure : 2025-04-29 15:58:44
+Texte original : Le mardi 15 avril, les policiers ont intercepté un véhicule pour un excès de vitesse sur l’autoroute 15 Nord dans une zone de construction, dans la municipalité de Mirabel. Il s’est avéré que la plaque d’immatriculation sur le véhicule était volée.
+Résultat : {
+  "style": "standard",
+  "correction": "Le mardi 15 avril, les policiers ont intercepté un véhicule pour excès de vitesse sur l'autoroute 15 Nord dans une zone de construction, dans la municipalité de Mirabel. Il s'est avéré que la plaque d'immatriculation du véhicule était volée.",
+  "explication": "accord du déterminant 'du' avec le nom 'véhicule'"
+}
+Temps écoulé : 173.80 secondes
+Nombre de tokens (entrée) : 51
+Nombre de tokens (sortie) : 84
+--------------------------------------------------
+Date et heure : 2025-04-29 16:07:48
+Texte original : Suite à une enquête , des patrouilleurs du poste autoroutier de Laval, il a été démontré que le conducteur de 47 ans avait été capté précédemment en excès de vitesse par plus d’un cinémomètre photographique dans le secteur de Mirabel. Le contrevenant de Mirabel a reçu un constat d’infraction totalisant 806 $ et 5 points d’inaptitude pour son excès de vitesse en zone de construction.
+Résultat : {
+  "style": "standard",
+  "correction": "Suite à une enquête, des patrouilleurs du poste autoroutier de Laval ont démontré que le conducteur de 47 ans avait été capté précédemment en excès de vitesse par plus d’un cinémomètre photographique dans le secteur de Mirabel. Le contrevenant de Mirabel a reçu un constat d’infraction totalisant 806 $ et 5 points d’inaptitude pour son excès de vitesse en zone de construction.",
+  "explication": "ajout d'un verbe conjugué à la bonne personne ('ont démontré' au lieu de 'il a été démontré')"
+}
+Temps écoulé : 290.85 secondes
+Nombre de tokens (entrée) : 74
+Nombre de tokens (sortie) : 119
+--------------------------------------------------
+Date et heure : 2025-04-29 16:25:55
+Texte original : De plus, il s’est vu remettre plusieurs constats d’infraction pour avoir tenté de déjouer un cinémomètre photographique, totalisant plus de 3 000 $. Il pourrait également faire face à des accusations de recel, a ajouté la SQ.
+Résultat : {
+  "style": "standard",
+  "correction": "De plus, il s’est vu remettre plusieurs constats d’infraction pour avoir tenté de déjouer un cinémomètre photographique, totalisant plus de 3 000 $. Il pourrait également faire face à des accusations de recel, a ajouté la SQ.",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 431.93 secondes
+Nombre de tokens (entrée) : 46
+Nombre de tokens (sortie) : 72
+--------------------------------------------------
+Date et heure : 2025-04-29 16:30:08
+Texte original : La Sûreté du Québec rappelle que la vitesse est l’une des premières causes de collisions mortelles à survenir sur les routes du Québec.
+Résultat : {
+  "style": "standard",
+  "correction": "La Sûreté du Québec rappelle que la vitesse est l'une des premières causes de collisions mortelles à survenir sur les routes du Québec.",
+  "explication": "Accord : ajout d'un trait d'union entre « l'une » pour respecter la règle orthographique française."
+}
+Temps écoulé : 195.48 secondes
+Nombre de tokens (entrée) : 26
+Nombre de tokens (sortie) : 72
+--------------------------------------------------
+Date et heure : 2025-04-29 17:30:03
+Texte original : Hull: Importante saisie à l'Établissement de détention de Hull
+Résultat : {
+  "style": "standard",
+  "correction": "Hull : importante saisie à l'établissement de détention de Hull",
+  "explication": "ajout d'un espace après le deux-points, minuscule pour 'établissement'"
+}
+Temps écoulé : 330.63 secondes
+Nombre de tokens (entrée) : 12
+Nombre de tokens (sortie) : 51
+--------------------------------------------------
+Date et heure : 2025-04-29 17:32:34
+Texte original : Importante saisie réalisée dans les derniers jours à l'Établissement de détention de Hull.
+Résultat : {
+  "style": "standard",
+  "correction": "Importante saisie réalisée ces derniers jours à l'établissement de détention de Hull.",
+  "explication": "ajout de l'article contracté « ces » et retrait du trait d'union dans « Établissement » pour une majuscule correcte"
+}
+Temps écoulé : 118.08 secondes
+Nombre de tokens (entrée) : 16
+Nombre de tokens (sortie) : 62
+--------------------------------------------------
+Date et heure : 2025-04-29 17:36:17
+Texte original : Celle-ci a permis de mettre la main sur plus de 69 000 $ en valeur institutionnelle (tabac, stupéfiants et autres objectifs )
+Résultat : {
+  "style": "familier",
+  "correction": "Celle-ci a permis de mettre la main sur plus de 69 000 $ en valeurs institutionnelles (tabac, stupéfiants et autres objets)",
+  "explication": "Correction d'orthographe : 'objectifs' -> 'objets', ajout du 's' à 'valeurs' pour l'accord."
+}
+Temps écoulé : 158.73 secondes
+Nombre de tokens (entrée) : 26
+Nombre de tokens (sortie) : 77
+--------------------------------------------------
+Date et heure : 2025-04-29 18:01:23
+Texte original : Tu peux nous faire un petit 25 heures d’épluchure de patate à 16$ de l’heure
+Résultat : {
+  "style": "familier",
+  "correction": "Tu peux nous faire une petite heure et demie d'épluchure de pommes de terre à 16 $ de l'heure",
+  "explication": " Correction orthographique : 25 heures → une heure et demie, épluchure de patate → épluchure de pommes de terre, ajout de la préposition 'une' pour une formulation correcte"
+}
+Temps écoulé : 383.88 secondes
+Nombre de tokens (entrée) : 20
+Nombre de tokens (sortie) : 78
+--------------------------------------------------
+Date et heure : 2025-04-29 18:07:52
+Texte original : Le Déjeuner des policiers aura lieu le 3 mai à La cache à Maxime, à Scott.
+Résultat : {
+  "style": "familier",
+  "correction": "Le déjeuner des policiers aura lieu le 3 mai à La Cache à Maxime, à Scott.",
+  "explication": "Majuscule incorrecte sur « Déjeuner »"
+}
+Temps écoulé : 100.19 secondes
+Nombre de tokens (entrée) : 18
+Nombre de tokens (sortie) : 47
+--------------------------------------------------
+Date et heure : 2025-04-29 18:12:12
+Texte original : Les policiers de la Sûreté du Québec vous invites pour la 30 ième édition du déjeuner des policiers, samedi, le 3 mai 2025 dès 7 h, à La cache à Maxime, à Scott.
+Résultat : {
+  "style": "familier",
+  "correction": "Les policiers de la Sûreté du Québec vous invitent pour la 30ème édition du déjeuner des policiers, samedi le 3 mai 2025 dès 7 h, à La Cache à Maxime, à Scott.",
+  "explication": "Correction orthographique : 'invites' -> 'invitent', ajout de l'accent aigu sur 'Cache'."
+}
+Temps écoulé : 234.00 secondes
+Nombre de tokens (entrée) : 38
+Nombre de tokens (sortie) : 82
+--------------------------------------------------
+Date et heure : 2025-04-29 18:20:14
+Texte original : Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d’ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPSC), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d’une contribution volontaire.
+Résultat : {
+  "style": "standard",
+  "correction": "Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d'ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPS), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d'une contribution volontaire.",
+  "explication": " Correction de l'abréviation 'CPSC' en 'CPS'."
+}
+Temps écoulé : 260.13 secondes
+Nombre de tokens (entrée) : 78
+Nombre de tokens (sortie) : 114
+--------------------------------------------------
+Date et heure : 2025-04-29 18:36:43
+Texte original : Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d’ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPSC), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d’une contribution volontaire.
+Résultat : Erreur de requête : HTTPConnectionPool(host='10.10.10.30', port=11435): Read timed out. (read timeout=600)
+Temps écoulé : 600.01 secondes
+Nombre de tokens (entrée) : 78
+Nombre de tokens (sortie) : 33
+--------------------------------------------------
+Date et heure : 2025-04-29 18:50:50
+Texte original : Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d’ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPSC), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d’une contribution volontaire.
+Résultat : Erreur de requête : HTTPConnectionPool(host='10.10.10.30', port=11435): Read timed out. (read timeout=600)
+Temps écoulé : 600.01 secondes
+Nombre de tokens (entrée) : 78
+Nombre de tokens (sortie) : 33
+--------------------------------------------------
+Date et heure : 2025-04-29 19:31:57
+Texte original : Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d’ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPSC), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d’une contribution volontaire.
+Résultat : {
+  "style": "standard",
+  "correction": "Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d'ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPS), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d'une contribution volontaire.",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 533.46 secondes
+Nombre de tokens (entrée) : 78
+Nombre de tokens (sortie) : 104
+--------------------------------------------------
+Date et heure : 2025-04-29 19:37:40
+Texte original : Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d’ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPSC), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d’une contribution volontaire.
+Résultat : {
+  "style": "standard",
+  "correction": "Joignez-vous aux policiers pour une belle matinée de découvertes, de plaisir, de sourires, d'ambiance familiale et de belles rencontres. En collaboration avec la Maison de la Famille Nouvelle-Beauce et le Centre de Pédiatrie Sociale (CPS), les policiers de la MRC de la Nouvelle-Beauce vous y accueilleront avec cœur, en vous servant un délicieux déjeuner en échange d'une contribution volontaire.",
+  "explication": "Correction : ajout d'un guillemet fermant après 'd'ambiance familiale', suppression du 'C' dans l'acronyme 'CPSC' pour obtenir 'CPS'."
+}
+Temps écoulé : 260.31 secondes
+Nombre de tokens (entrée) : 78
+Nombre de tokens (sortie) : 135
+--------------------------------------------------
+Date et heure : 2025-05-02 00:37:04
+Texte original : Un vers de terre sur un hamcons
+Résultat : {
+  "style": "familier/inconnu",
+  "correction": "Un ver de terre sur un hameçon",
+  "explication": "Corrections orthographiques : « vers » → « ver », « hamcons » → « hameçon »"
+}
+Temps écoulé : 337.93 secondes
+Nombre de tokens (entrée) : 7
+Nombre de tokens (sortie) : 50
+--------------------------------------------------
+Date et heure : 2025-05-09 21:11:51
+Texte original : Capital - Ikea : le geant suedois est-il toujours le champion de votre maison ?
+Résultat : {
+  "style": "familier",
+  "correction": "Capital - Ikea : le géant suédois est-il toujours le champion de votre maison ?",
+  "explication": "corrige « geant » en « géant » (accord), « suedois » en « suédois » (majuscule et accent)"
+}
+Temps écoulé : 344.25 secondes
+Nombre de tokens (entrée) : 17
+Nombre de tokens (sortie) : 64
+--------------------------------------------------
+Date et heure : 2025-05-09 21:22:00
+Texte original : Créé en 1943 en Suède, Ikea s’est rapidement imposé sur le marché du mobilier et de la décoration partout dans le monde. En France où l’enseigne s’est implantée en 1981, ses 36 magasins réalisent chaque année un chiffre d’affaires de quatre milliard d’euros. A quoi est dû son succès ? Pour le savoir, les journalistes du magazine ont enquêté sur les méthodes commerciales et les mode de production du géant suédois. Ils sont également allés à la rencontre des designers de l’enseigne, toujours prêts à séduire leurs clients avec des nouveautés à bas prix et surtout, facilement montables.
+Résultat : {
+  "style": "standard",
+  "correction": "Créée en 1943 en Suède, Ikea s’est rapidement imposée sur le marché du mobilier et de la décoration partout dans le monde. En France où l’enseigne s’est implantée en 1981, ses 36 magasins réalisent chaque année un chiffre d’affaires de quatre milliards d’euros. À quoi est dû son succès ? Pour le savoir, les journalistes du magazine ont enquêté sur les méthodes commerciales et les modes de production du géant suédois. Ils sont également allés à la rencontre des designers de l’enseigne, toujours prêts à séduire leurs clients avec des nouveautés à bas prix et surtout, facilement montables.",
+  "explication": "Corrections : « Créée » (féminin), « milliards » (accord), « À quoi » (majuscule après ponctuation), « modes » (accord)"
+}
+Temps écoulé : 457.27 secondes
+Nombre de tokens (entrée) : 119
+Nombre de tokens (sortie) : 174
+--------------------------------------------------
+Date et heure : 2025-05-09 21:45:53
+Texte original : Reddit est un site web communautaire américain de discussion et d’actualités sociales.
+Résultat : {
+  "style": "standard",
+  "correction": "Reddit est un site Web communautaire américain de discussion et d'actualités sociales.",
+  "explication": "Majuscule à 'Web', car c'est un nom propre."
+}
+Temps écoulé : 325.86 secondes
+Nombre de tokens (entrée) : 15
+Nombre de tokens (sortie) : 52
+--------------------------------------------------
+Date et heure : 2025-05-09 21:49:38
+Texte original : Fondé en 2005, Reddit contient d'abord surtout du contenu sur la programmation et la science. Il ne cesse depuis de se diversifier et de s’ouvrir à du contenu plus grand public[2].
+Résultat : {
+  "style": "standard",
+  "correction": "Fondé en 2005, Reddit contient d'abord surtout du contenu sur la programmation et la science. Il ne cesse depuis de se diversifier et de s’ouvrir à un contenu plus grand public[2].",
+  "explication": "Correction : ajout d'un article indéfini « un » avant « contenu » pour une meilleure cohésion grammaticale."
+}
+Temps écoulé : 170.04 secondes
+Nombre de tokens (entrée) : 41
+Nombre de tokens (sortie) : 85
+--------------------------------------------------
+Date et heure : 2025-05-09 22:10:00
+Texte original : Sa communauté dispose d'une culture propre à l'histoire du site et d'Internet en général, qui échappe aux non-initiés car relativement fermée.
+Résultat : {
+  "style": "soutenu",
+  "correction": "Sa communauté dispose d'une culture propre à l'histoire du site et d'Internet en général, qui échappe aux non-initiés parce qu'elle est relativement fermée.",
+  "explication": "ajout de « parce que » pour améliorer la cohérence grammaticale"
+}
+Temps écoulé : 367.36 secondes
+Nombre de tokens (entrée) : 31
+Nombre de tokens (sortie) : 69
+--------------------------------------------------
+Date et heure : 2025-05-09 22:16:10
+Texte original : L’une des parties du site ayant le plus d’écho à l’extérieur de sa communauté comprend les « AMA » (« Ask me anything », ce qui se traduit par « Demandez-moi ce que vous voulez »), des sessions de questions-réponses au cours desquelles une personnalité publique répond aux questions des utilisateurs, généralement dans un cadre promotionnel.
+Résultat : {
+  "style": "standard",
+  "correction": "L’une des parties du site ayant le plus d’écho à l’extérieur de sa communauté comprend les « AMA » (« Ask me anything », ce qui se traduit par « Demandez-moi n’importe quoi »), des sessions de questions-réponses au cours desquelles une personnalité publique répond aux questions des utilisateurs, généralement dans un cadre promotionnel.",
+  "explication": "Correction d'une erreur de traduction : 'ce que vous voulez' est plus proche de 'whatever you want' en anglais, mais la bonne traduction de 'anything' est 'n’importe quoi'."
+}
+Temps écoulé : 237.45 secondes
+Nombre de tokens (entrée) : 72
+Nombre de tokens (sortie) : 137
+--------------------------------------------------
+Date et heure : 2025-05-09 22:21:02
+Texte original : Barack Obama, lors de sa campagne présidentielle en 2012, est connu pour avoir rendu le site temporairement indisponible à cause du trafic engendré[3].
+Résultat : {
+  "style": "standard",
+  "correction": "Barack Obama, lors de sa campagne présidentielle en 2008, est connu pour avoir rendu le site temporairement indisponible à cause du trafic engendré.",
+  "explication": "Corrigé l'année de la campagne présidentielle d'Obama (2008 au lieu de 2012), qui était une erreur factuelle."
+}
+Temps écoulé : 145.59 secondes
+Nombre de tokens (entrée) : 29
+Nombre de tokens (sortie) : 74
+--------------------------------------------------
+Date et heure : 2025-05-09 22:23:11
+Texte original : Barack Obama, lors de sa campagne présidentielle en 2012, est connu pour avoir rendu le site temporairement indisponible à cause du trafic engendré[3].
+Résultat : {
+  "style": "standard",
+  "correction": "Barack Obama, lors de sa campagne présidentielle en 2012, est connu pour avoir rendu le site temporairement indisponible à cause du trafic engendré.",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 86.18 secondes
+Nombre de tokens (entrée) : 29
+Nombre de tokens (sortie) : 52
+--------------------------------------------------
+Date et heure : 2025-05-09 22:28:12
+Texte original : Ayant connu une forte croissance en 2010, en partie due à une baisse de popularité de son concurrent Digg[4], Reddit se place en 2020 comme le 20e site web le plus populaire au monde et le 6e aux États-Unis selon Alexa Internet[5].
+Résultat : {
+  "style": "soutenu",
+  "correction": "Ayant connu une forte croissance en 2010, en partie due à une baisse de popularité de son concurrent Digg[4], Reddit se place en 2020 comme le 20e site web le plus populaire au monde et le 6e aux États-Unis selon Alexa Internet[5].",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 160.78 secondes
+Nombre de tokens (entrée) : 53
+Nombre de tokens (sortie) : 79
+--------------------------------------------------
+Date et heure : 2025-05-09 22:38:33
+Texte original : Une analyse statistique d'Alexa montre que, en excluant certains biais possibles des statistiques (notamment pour des raisons linguistiques et culturelles), Reddit est consulté principalement par des anglophones[7], dont la plupart proviennent des États-Unis. Ainsi, selon les statistiques d'Alexa en 2018, 60,6 % du trafic vient des États-Unis, où Reddit serait le 5e site le plus populaire). Loin derrière se trouvent le Royaume-Uni (7,0 % du trafic de Reddit et 8e par sa popularité), le Canada (6,3 % du trafic, mais 5e site le plus populaire), l'Australie (3,2 % du trafic) et le Japon (1,9 % du trafic)[7].
+Résultat : {
+  "style": "standard",
+  "correction": "Une analyse statistique d'Alexa montre que, en excluant certains biais possibles des statistiques (notamment pour des raisons linguistiques et culturelles), Reddit est consulté principalement par des anglophones[7], dont la plupart proviennent des États-Unis. Ainsi, selon les statistiques d'Alexa en 2018, 60,6 % du trafic vient des États-Unis, où Reddit serait le 5e site le plus populaire. Loin derrière se trouvent le Royaume-Uni (7,0 % du trafic de Reddit et 8e par sa popularité), le Canada (6,3 % du trafic, mais 5e site le plus populaire), l'Australie (3,2 % du trafic) et le Japon (1,9 % du trafic)[7].",
+  "explication": "aucune correction nécessaire"
+}
+Temps écoulé : 397.56 secondes
+Nombre de tokens (entrée) : 148
+Nombre de tokens (sortie) : 173
+--------------------------------------------------
+Date et heure : 2025-05-09 22:55:32
+Texte original : Je peut tu te demnder ton avie sur un retour de mon correteur, je suis pas sur ?
+Résultat : {
+  "style": "familier",
+  "correction": "Je peux te demander ton avis sur un retour de mon correcteur, je ne suis pas sûr ?",
+  "explication": "Corrections orthographiques : 'peut' -> 'peux', 'demnder' -> 'demander', 'avie' -> 'avis', 'correteur' -> 'correcteur'. Corrections grammaticales : 'je suis pas sur' -> 'je ne suis pas sûr'."
+}
+Temps écoulé : 434.11 secondes
+Nombre de tokens (entrée) : 19
+Nombre de tokens (sortie) : 100
+--------------------------------------------------
+Date et heure : 2025-05-09 23:01:33
+Texte original : Est tu occuper ?
+Résultat : {
+  "style": "familier",
+  "correction": "Es-tu occupé ?",
+  "explication": "Corrections orthographiques : ajout de trait d'union entre 'es' et 'tu', accord de genre et nombre pour 'occupé'."
+}
+Temps écoulé : 102.18 secondes
+Nombre de tokens (entrée) : 4
+Nombre de tokens (sortie) : 56
+--------------------------------------------------
+Date et heure : 2025-05-10 01:06:25
+Texte original : Bon d'abord , tu me dis le bon coin des morilles ,hein ? :snif::snif: et après on va pouvoir parler bouffe car y en aura dans le panier :snif:
+Résultat : {
+  "style": "familier",
+  "correction": "Bon, d'abord, tu me dis le bon coin des morilles, hein ? :snif::snif: et après on va pouvoir parler bouffe car il y en aura dans le panier :snif:",
+  "explication": "ajout de virgules pour améliorer la lisibilité, correction de l'accord 'y' en 'il y'"
+}
+Temps écoulé : 393.14 secondes
+Nombre de tokens (entrée) : 39
+Nombre de tokens (sortie) : 85
+--------------------------------------------------
+Date et heure : 2025-05-10 19:32:42
+Texte original : Ça se passe comme ça chez Mcdonalds ? - Cash investigation
+Résultat : {
+  "style": "familier/informel",
+  "correction": "Ça se passe comme ça chez McDonald's ? - Cash Investigation",
+  "explication": "Correction de l'orthographe : ajout de l'apostrophe pour indiquer la possession (McDonald's) et majuscule pour le titre 'Cash Investigation'."
+}
+Temps écoulé : 383.56 secondes
+Nombre de tokens (entrée) : 11
+Nombre de tokens (sortie) : 68
+--------------------------------------------------

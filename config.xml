@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <app>
+        <theme>darkly</theme>
+        <window_width>800</window_width>
+        <window_height>600</window_height>
+    </app>
+
+    <model>
+        <name>hf.co/bartowski/Meta-Llama-3.1-70B-Instruct-GGUF:Q5_K_S</name>
+        <provider>ollama</provider>
+        <endpoint>http://10.10.10.30:11435/api/generate</endpoint>
+    </model>
+
+    <correction>
+        <max_tokens>200</max_tokens>
+        <temperature>0.3</temperature>
+        <stream>false</stream>
+    </correction>
+</config>

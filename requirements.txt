@@ -1,0 +1,24 @@
+# Correcteur MVP - Requirements
+# Interface graphique moderne
+ttkbootstrap>=1.10.1
+
+# Traitement d'images et gestion des icônes
+Pillow>=10.0.0
+
+# Requêtes HTTP pour l'API Ollama
+requests>=2.31.0
+
+# Barre de progression
+tqdm>=4.65.0
+
+# Bibliothèques standard Python (pas besoin d'installation séparée)
+# - tkinter (inclus avec Python)
+# - xml.etree.ElementTree (inclus avec Python)
+# - json (inclus avec Python)
+# - time (inclus avec Python)
+# - threading (inclus avec Python)
+# - traceback (inclus avec Python)
+# - re (inclus avec Python)
+# - subprocess (inclus avec Python)
+# - os (inclus avec Python)
+# - datetime (inclus avec Python)
